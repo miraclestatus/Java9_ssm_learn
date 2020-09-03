@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mybatisday01_01_quich_start" />
+        <module name="mybatisday01_03_dao_crud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatisday01_01_quich_start" target="1.5" />
+      <module name="mybatisday01_02_annotation" target="1.5" />
+      <module name="mybatisday01_03_dao_crud" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

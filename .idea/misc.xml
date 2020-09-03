@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/mybatisday01_01_quich_start/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisday01_02_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisday01_03_dao_crud/pom.xml" />
       </list>
     </option>
   </component>

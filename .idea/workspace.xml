@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ac6192-a04f-4776-8b33-f7f95e073c10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatisday01_01_quich_start/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/java/com/neusoft/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/java/com/neusoft/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/resources/com/neusoft/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/test/java/com/neusoft/test/MybatisTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/java/com.neusoft/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/java/com.neusoft/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/resources/com/neusoft/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/test/java/test/MybatisTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/mybatisday01_01_quich_start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/java/com/neusoft/dao/IUserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/java/com/neusoft/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/resources/com/neusoft/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/test/java/com/neusoft/test/MybatisTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/target/classes/com/neusoft/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/target/classes/log4j.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +80,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/resources/com/neusoft/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -76,12 +92,39 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\Documents\GitHub\Java9_ssm_learn\mybatisday01_03_dao_crud\src\main\resources\com\neusoft\dao" />
+      <recent name="C:\Users\Eric\Documents\GitHub\Java9_ssm_learn\mybatisday01_03_dao_crud\src\main\java" />
+      <recent name="C:\Users\Eric\Documents\GitHub\Java9_ssm_learn\mybatisday01_03_dao_crud\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Eric\Documents\GitHub\Java9_ssm_learn\mybatisday01_01_quich_start\src\main\resources\com\neusoft\dao" />
-      <recent name="C:\Users\Eric\Documents\GitHub\Java9_ssm_learn\mybatisday01_01_quich_start\src\main\resources" />
+      <recent name="C:\Users\Eric\Documents\GitHub\Java9_ssm_learn\mybatisday01_03_dao_crud\src\main\resources" />
+      <recent name="C:\Users\Eric\Documents\GitHub\Java9_ssm_learn\mybatisday01_03_dao_crud\src\test" />
+      <recent name="C:\Users\Eric\Documents\GitHub\Java9_ssm_learn\mybatisday01_03_dao_crud\src\main" />
+      <recent name="C:\Users\Eric\Documents\GitHub\Java9_ssm_learn\mybatisday01_02_annotation\src\main\resources" />
+      <recent name="C:\Users\Eric\Documents\GitHub\Java9_ssm_learn\mybatisday01_02_annotation\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MybatisTest1.testFindOne">
+    <configuration name="MybatisTest1.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybatisTest1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisday01_01_quich_start" />
       <extension name="coverage">
@@ -98,9 +141,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisTest1.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest1.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
+      <option name="METHOD_NAME" value="testFindOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_02_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest1.testFindOne" />
+        <item itemvalue="JUnit.MybatisTest1.testFindAll" />
+        <item itemvalue="JUnit.MybatisTest1.test1 (1)" />
         <item itemvalue="JUnit.MybatisTest1.test1" />
+        <item itemvalue="JUnit.MybatisTest2.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +221,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599094593656</updated>
-      <workItem from="1599094595773" duration="5190000" />
+      <workItem from="1599094595773" duration="18255000" />
     </task>
     <servers />
   </component>
@@ -134,10 +229,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="175" y="0" key="#Project_Structure" timestamp="1599098179960">
+    <state x="175" y="0" key="#Project_Structure" timestamp="1599121225805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="0" key="#Project_Structure/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599098179960" />
+    <state x="175" y="0" key="#Project_Structure/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599121225805" />
     <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1599098166544">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -146,29 +241,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="100" key="FileChooserDialogImpl/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599096613018" />
-    <state width="1313" height="423" key="GridCell.Tab.0.bottom" timestamp="1599099817330">
+    <state width="1313" height="181" key="GridCell.Tab.0.bottom" timestamp="1599123724613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="423" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599099817330" />
-    <state width="1313" height="423" key="GridCell.Tab.0.center" timestamp="1599099817330">
+    <state width="1313" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599123724613" />
+    <state width="1313" height="181" key="GridCell.Tab.0.center" timestamp="1599123724613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="423" key="GridCell.Tab.0.center/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599099817330" />
-    <state width="1313" height="423" key="GridCell.Tab.0.left" timestamp="1599099817329">
+    <state width="1313" height="181" key="GridCell.Tab.0.center/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599123724613" />
+    <state width="1313" height="181" key="GridCell.Tab.0.left" timestamp="1599123724613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="423" key="GridCell.Tab.0.left/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599099817329" />
-    <state width="1313" height="423" key="GridCell.Tab.0.right" timestamp="1599099817330">
+    <state width="1313" height="181" key="GridCell.Tab.0.left/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599123724613" />
+    <state width="1313" height="181" key="GridCell.Tab.0.right" timestamp="1599123724613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="423" key="GridCell.Tab.0.right/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599099817330" />
-    <state x="71" y="0" key="SettingsEditor" timestamp="1599096680255">
+    <state width="1313" height="181" key="GridCell.Tab.0.right/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599123724613" />
+    <state x="70" y="0" key="SettingsEditor" timestamp="1599112928624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="71" y="0" key="SettingsEditor/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599096680255" />
-    <state x="-288" y="57" width="1366" height="643" key="new project wizard" timestamp="1599095271202">
+    <state x="70" y="0" key="SettingsEditor/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599112928624" />
+    <state x="0" y="85" width="1366" height="643" key="new project wizard" timestamp="1599121125899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-288" y="57" width="1366" height="643" key="new project wizard/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599095271202" />
+    <state x="0" y="85" width="1366" height="643" key="new project wizard/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599121125899" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1599122597656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599122597656" />
   </component>
 </project>

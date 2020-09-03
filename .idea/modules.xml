@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mybatisday01_01_quich_start/mybatisday01_01_quich_start.iml" filepath="$PROJECT_DIR$/mybatisday01_01_quich_start/mybatisday01_01_quich_start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisday01_03_dao_crud/mybatisday01_03_dao_crud.iml" filepath="$PROJECT_DIR$/mybatisday01_03_dao_crud/mybatisday01_03_dao_crud.iml" />
     </modules>
   </component>
 </project>
