@@ -7,7 +7,7 @@
 <!--    配置查询结果的列名和实体属性名的对应关系-->
 <!--    id 给定一个唯一标识， 是给select标签引用用的-->
 <!--    type是指 实体类的全限定类名-->
-    <resultMap id="userMap" type="com.neusoft.domain.User">
+    <resultMap id="userMap" type="user">
 <!--        id标签 主键字段的对应-->
 
         <id property="userId" column="id"></id>
@@ -38,7 +38,7 @@
 
 <!--        保存用户-->
 <!--    savaUser-->
-    <insert id="savaUser"  parameterType="com.neusoft.domain.User">
+    <insert id="savaUser"  parameterType="user">
 --         配置保存时获取插入id keyColumn数据库中的列名 keyProperty实体类
         <selectKey keyColumn="id" keyProperty="userId" resultType="INT">
             select  last_insert_id();
@@ -48,7 +48,7 @@
     </insert>
 
 <!--    更新用户-->
-    <update id="updateUser" parameterType="com.neusoft.domain.User">
+    <update id="updateUser" parameterType="user">
         update user set username = #{userName},birthday=#{userBirthday},
         sex=#{userSex}, address=#{userAddress} where id = #{userId}
     </update>
@@ -59,8 +59,10 @@
 
 <!--    根据姓名进行模糊查询-->
 <!--    <select id="findByName" parameterType="java.lang.String" resultType="com.neusoft.domain.User">-->
+<!--        select * from user where username like '%${value}%';
+-->
     <select id="findByName" parameterType="java.lang.String" resultMap="userMap">
-        select * from user where username like #{username};
+            select * from user where username like #{username};
     </select>
 <!--    查询总记录数-->
     <select id="findTotal" resultType="java.lang.Integer">

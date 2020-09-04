@@ -59,6 +59,7 @@
 <!--    根据姓名进行模糊查询-->
     <select id="findByName" parameterType="java.lang.String" resultType="com.neusoft.domain.User">
         select * from user where username like #{username};
+--         select * from user where username like '%${value}%';
     </select>
 <!--    查询总记录数-->
     <select id="findTotal" resultType="java.lang.Integer">

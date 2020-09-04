@@ -6,6 +6,9 @@
 <configuration>
     
     <typeAliases>
+<!--        单个类起别名-->
+<!--        <typeAlias type="com.neusoft.domain.User" alias="user"></typeAlias>-->
+<!--        配置起别名的包 当指定之后， 该包下的实体类都会注册别名，并且类名就是别名，不区分大小写-->
         <package name="com.neusoft.domain"/>
     </typeAliases>
     <!-- 配置环境 -->

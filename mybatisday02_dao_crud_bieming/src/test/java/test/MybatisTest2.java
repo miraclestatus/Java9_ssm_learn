@@ -79,7 +79,7 @@ public class MybatisTest2 {
     public void testUpdate(){
         // 注意要提交事物
         User user = new User();
-        user.setUserId(51);
+        user.setUserId(48);
         user.setUserName("李白");
         user.setUserBirthday(new Date());
         user.setUserSex("男");
@@ -100,7 +100,8 @@ public class MybatisTest2 {
 
     @Test
     public void testLikeName(){
-        List<User> users = userDao.findByName("%李%");
+        List<User> users = userDao.findByName("%李%"); // select * from user where username like '%%李%%';
+//        List<User> users = userDao.findByName("李"); //
         for(User user: users){
             System.out.println(user);
         }

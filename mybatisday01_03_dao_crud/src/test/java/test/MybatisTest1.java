@@ -103,7 +103,8 @@ public class MybatisTest1 {
 
     @Test
     public void testLikeName(){
-        List<User> users = userDao.findByName("%李%");
+//        List<User> users = userDao.findByName("%李%");
+        List<User> users = userDao.findByName("李");
         for(User user: users){
             System.out.println(user);
         }
