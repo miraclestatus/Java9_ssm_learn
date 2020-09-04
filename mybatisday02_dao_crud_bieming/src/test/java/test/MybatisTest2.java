@@ -51,13 +51,13 @@ public class MybatisTest2 {
         }
     }
 
-//    @Test
-//    public void testFindOne(){
-//        User user = userDao.findById(45);
-//
-//         System.out.println(user);
-//
-//    }
+    @Test
+    public void testFindOne(){
+        User user = userDao.findById(45);
+
+         System.out.println(user);
+
+    }
     @Test
     public void testSave(){
         // 注意要提交事物
@@ -75,41 +75,41 @@ public class MybatisTest2 {
     }
 
 //
-//    @Test
-//    public void testUpdate(){
-//        // 注意要提交事物
-//        User user = new User();
-//        user.setId(52);
-//        user.setUsername("李白");
-//        user.setBirthday(new Date());
-//        user.setSex("男");
-//        user.setAddress("王者峡谷打野区");
+    @Test
+    public void testUpdate(){
+        // 注意要提交事物
+        User user = new User();
+        user.setUserId(51);
+        user.setUserName("李白");
+        user.setUserBirthday(new Date());
+        user.setUserSex("男");
+        user.setUserAddress("王者峡谷打野区");
+
+        System.out.println("更新之前"+ user);
+        int i = userDao.updateUser(user);
+        System.out.println("影响的行数" + i);
+
+    }
+
 //
-//        System.out.println("更新之前"+ user);
-//        int i = userDao.updateUser(user);
-//        System.out.println("影响的行数" + i);
+    @Test
+    public void testDelete(){
+        int res = userDao.deleteUser(63);
+        System.out.println("res"+ res);
+    }
+
+    @Test
+    public void testLikeName(){
+        List<User> users = userDao.findByName("%李%");
+        for(User user: users){
+            System.out.println(user);
+        }
+    }
 //
-//    }
-//
-//
-//    @Test
-//    public void testDelete(){
-//        int res = userDao.deleteUser(52);
-//        System.out.println("res"+ res);
-//    }
-//
-//    @Test
-//    public void testLikeName(){
-//        List<User> users = userDao.findByName("%李%");
-//        for(User user: users){
-//            System.out.println(user);
-//        }
-//    }
-//
-//    @Test
-//    public void testCount(){
-//        int total = userDao.findTotal();
-//        System.out.println(total);
-//    }
+    @Test
+    public void testCount(){
+        int total = userDao.findTotal();
+        System.out.println(total);
+    }
 
 }
