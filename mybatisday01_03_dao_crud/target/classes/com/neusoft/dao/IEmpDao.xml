@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neusoft.dao.IEmpDao">
+
+    <select id="findAll" resultType="com.neusoft.domain.Emp">
+        select * from emp
+    </select>
+    <select id="findById" resultType="com.neusoft.domain.Emp">
+        select * from emp where EMPNO = #{EMPNO}
+    </select>
+    <insert id="saveEmp" parameterType="com.neusoft.domain.Emp">
+        <selectKey keyProperty="EMPNO" keyColumn="EMPNO" resultType="int">
+            select last_insert_id();
+        </selectKey>
+        insert into emp (EMPNO, ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO)
+        values (#{EMPNO}, #{ENAME},#{JOB},#{MGR},#{HIREDATE},#{SAL},#{COMM},#{DEPTNO})
+    </insert>
+    <update id="updateEmp" parameterType="com.neusoft.domain.Emp">
+        update emp set ENAME = #{ENAME},JOB = #{JOB},MGR = #{MGR},HIREDATE = #{HIREDATE},
+        SAL = #{SAL},COMM = #{COMM},DEPTNO = #{DEPTNO} where EMPNO = #{EMPNO}
+    </update>
+</mapper>
