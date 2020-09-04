@@ -24,12 +24,45 @@
 <!--    <select id="findAll"  resultMap="userMap">-->
 <!--        select * from  user-->
 <!--    </select>-->
+
+
+<!--        查询所有-->
         <select id="findAll" resultType="com.neusoft.domain.User">
             select * from  user
         </select>
-
+<!--&lt;!&ndash;        通过id进行查询&ndash;&gt;-->
         <select id="findById" parameterType="INT" resultType="com.neusoft.domain.User">
             select * from user where id = #{uid}
         </select>
+
+<!--        保存用户-->
+<!--    savaUser-->
+    <insert id="savaUser"  parameterType="com.neusoft.domain.User">
+--         配置保存时获取插入id keyColumn数据库中的列名 keyProperty实体类
+        <selectKey keyColumn="id" keyProperty="id" resultType="INT">
+            select  last_insert_id();
+        </selectKey>
+        insert into user (username, birthday, sex, address)
+         values (#{username},#{birthday} ,#{sex},#{address})
+    </insert>
+
+<!--    更新用户-->
+    <update id="updateUser" parameterType="com.neusoft.domain.User">
+        update user set username = #{username},birthday=#{birthday},
+        sex=#{sex}, address=#{address} where id = #{id}
+    </update>
+<!--删除用户-->
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        delete from user  where id = #{id}
+    </delete>
+
+<!--    根据姓名进行模糊查询-->
+    <select id="findByName" parameterType="java.lang.String" resultType="com.neusoft.domain.User">
+        select * from user where username like #{username};
+    </select>
+<!--    查询总记录数-->
+    <select id="findTotal" resultType="java.lang.Integer">
+        select count(*) from user;
+    </select>
 
 </mapper>

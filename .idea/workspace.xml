@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ac6192-a04f-4776-8b33-f7f95e073c10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/java/com.neusoft/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/java/com.neusoft/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/resources/com/neusoft/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/test/java/test/MybatisTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/mybatisday01_01_quich_start.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/java/com/neusoft/dao/IUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/java/com/neusoft/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/resources/com/neusoft/dao/IUserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/src/test/java/com/neusoft/test/MybatisTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/target/classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/target/classes/com/neusoft/dao/IUserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday01_01_quich_start/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/java/com.neusoft/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/java/com.neusoft/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/resources/com/neusoft/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/resources/com/neusoft/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/test/java/test/MybatisTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/test/java/test/MybatisTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisday01_03_dao_crud/target/classes/com/neusoft/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/target/classes/com/neusoft/dao/IUserDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,8 +91,8 @@
       <recent name="C:\Users\Eric\Documents\GitHub\Java9_ssm_learn\mybatisday01_02_annotation\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest1.testFindOne">
-    <configuration name="MybatisTest1.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MybatisTest1.testCount">
+    <configuration name="MybatisTest1.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisday01_03_dao_crud" />
       <extension name="coverage">
         <pattern>
@@ -119,29 +102,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="testCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisday01_01_quich_start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.neusoft.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.neusoft.test" />
-      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.MybatisTest1" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest1.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest1.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisday01_03_dao_crud" />
       <extension name="coverage">
         <pattern>
@@ -151,13 +118,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
-      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest1.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest1.testLikeName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisday01_03_dao_crud" />
       <extension name="coverage">
         <pattern>
@@ -167,14 +134,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
-      <option name="METHOD_NAME" value="testFindOne" />
+      <option name="METHOD_NAME" value="testLikeName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisday01_02_annotation" />
+    <configuration name="MybatisTest1.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -182,8 +149,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest1.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest1.testFindOne" />
-        <item itemvalue="JUnit.MybatisTest1.testFindAll" />
-        <item itemvalue="JUnit.MybatisTest1.test1 (1)" />
-        <item itemvalue="JUnit.MybatisTest1.test1" />
-        <item itemvalue="JUnit.MybatisTest2.test1" />
+        <item itemvalue="JUnit.MybatisTest1.testCount" />
+        <item itemvalue="JUnit.MybatisTest1.testLikeName" />
+        <item itemvalue="JUnit.MybatisTest1.testDelete" />
+        <item itemvalue="JUnit.MybatisTest1.testUpdate" />
+        <item itemvalue="JUnit.MybatisTest1.testSave" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +204,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599094593656</updated>
-      <workItem from="1599094595773" duration="18255000" />
+      <workItem from="1599094595773" duration="19219000" />
+      <workItem from="1599180084376" duration="2262000" />
     </task>
     <servers />
   </component>
@@ -241,22 +225,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="100" key="FileChooserDialogImpl/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599096613018" />
-    <state width="1313" height="181" key="GridCell.Tab.0.bottom" timestamp="1599123724613">
+    <state width="1296" height="299" key="GridCell.Tab.0.bottom" timestamp="1599182567207">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599123724613" />
-    <state width="1313" height="181" key="GridCell.Tab.0.center" timestamp="1599123724613">
+    <state width="1296" height="299" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599182567207" />
+    <state width="1296" height="299" key="GridCell.Tab.0.center" timestamp="1599182567207">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="181" key="GridCell.Tab.0.center/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599123724613" />
-    <state width="1313" height="181" key="GridCell.Tab.0.left" timestamp="1599123724613">
+    <state width="1296" height="299" key="GridCell.Tab.0.center/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599182567207" />
+    <state width="1296" height="299" key="GridCell.Tab.0.left" timestamp="1599182567206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="181" key="GridCell.Tab.0.left/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599123724613" />
-    <state width="1313" height="181" key="GridCell.Tab.0.right" timestamp="1599123724613">
+    <state width="1296" height="299" key="GridCell.Tab.0.left/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599182567206" />
+    <state width="1296" height="299" key="GridCell.Tab.0.right" timestamp="1599182567207">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="181" key="GridCell.Tab.0.right/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599123724613" />
+    <state width="1296" height="299" key="GridCell.Tab.0.right/0.0.1366.728/1366.-302.2560.1400@0.0.1366.728" timestamp="1599182567207" />
     <state x="70" y="0" key="SettingsEditor" timestamp="1599112928624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
