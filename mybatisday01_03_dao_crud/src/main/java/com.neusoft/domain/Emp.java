@@ -17,6 +17,8 @@ public class Emp {
     private int COMM;
     private int DEPTNO;
 
+
+
     public int getEMPNO() {
         return EMPNO;
     }

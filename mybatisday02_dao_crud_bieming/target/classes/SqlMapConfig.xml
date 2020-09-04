@@ -4,7 +4,9 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <!-- mybatis的主配置文件 -->
 <configuration>
-    
+    <properties url="file:///C:/Users/Eric/Documents/GitHub/kuang_jia_test/day01_mybatis_dao_demo/src/main/resources/jdbcConfig.properties">
+
+    </properties>
     <typeAliases>
 <!--        单个类起别名-->
 <!--        <typeAlias type="com.neusoft.domain.User" alias="user"></typeAlias>-->
@@ -18,12 +20,19 @@
             <!-- 配置事务的类型-->
             <transactionManager type="JDBC"></transactionManager>
             <!-- 配置数据源（连接池） -->
+<!--            <dataSource type="POOLED">-->
+<!--                &lt;!&ndash; 配置连接数据库的4个基本信息 &ndash;&gt;-->
+<!--                <property name="driver" value="com.mysql.jdbc.Driver"/>-->
+<!--                <property name="url" value="jdbc:mysql://localhost:3306/java_ssm"/>-->
+<!--                <property name="username" value="root"/>-->
+<!--                <property name="password" value="root"/>-->
+<!--            </dataSource>-->
+            <!--配置连接池-->
             <dataSource type="POOLED">
-                <!-- 配置连接数据库的4个基本信息 -->
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/java_ssm"/>
-                <property name="username" value="root"/>
-                <property name="password" value="root"/>
+                <property name="driver" value="${jdbc.driver}"></property>
+                <property name="url" value="${jdbc.url}"></property>
+                <property name="username" value="${jdbc.username}"></property>
+                <property name="password" value="${jdbc.password}"></property>
             </dataSource>
 
         </environment>
