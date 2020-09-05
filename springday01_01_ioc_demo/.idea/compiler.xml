@@ -9,5 +9,6 @@
         <module name="springday01_01_ioc_demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
