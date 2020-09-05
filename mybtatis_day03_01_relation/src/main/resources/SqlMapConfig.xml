@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- mybatis的主配置文件 -->
+<configuration>
+
+    <typeAliases>
+<!--        单个类起别名-->
+<!--        <typeAlias type="com.neusoft.domain.User" alias="user"></typeAlias>-->
+<!--        配置起别名的包 当指定之后， 该包下的实体类都会注册别名，并且类名就是别名，不区分大小写-->
+        <package name="com.neusoft.domain"/>
+    </typeAliases>
+    <!-- 配置环境 -->
+    <environments default="mysql">
+        <!-- 配置mysql的环境-->
+        <environment id="mysql">
+            <!-- 配置事务的类型-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- 配置数据源（连接池） -->
+            <dataSource type="POOLED">
+                <!-- 配置连接数据库的4个基本信息 -->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/java_ssm"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+            <!--配置连接池-->
+
+
+        </environment>
+    </environments>
+
+    <!-- 指定映射配置文件的位置，映射配置文件指的是每个dao独立的配置文件 -->
+    <mappers>
+        <package name="com.neusoft.dao"/>
+    </mappers>
+</configuration>

@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ac6192-a04f-4776-8b33-f7f95e073c10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatisday02_dao_crud_bieming/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybtatis_day03_01_relation/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybtatis_day03_01_relation/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybtatis_day03_01_relation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybtatis_day03_01_relation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybtatis_day03_01_relation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybtatis_day03_01_relation/mybtatis_day03_01_relation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybtatis_day03_01_relation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybtatis_day03_01_relation/src/main/java/com.neusoft/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybtatis_day03_01_relation/src/main/java/com.neusoft/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybtatis_day03_01_relation/src/main/java/com.neusoft/domain/AccountUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybtatis_day03_01_relation/src/main/resources/com/neusoft/dao/IAccountDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/java/com.neusoft/domain/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/java/com.neusoft/domain/Emp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday02_dao_crud_bieming/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisday02_dao_crud_bieming/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisday02_dao_crud_bieming/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisday02_dao_crud_bieming/target/classes/SqlMapConfig.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +213,7 @@
       <updated>1599094593656</updated>
       <workItem from="1599094595773" duration="19219000" />
       <workItem from="1599180084376" duration="8841000" />
+      <workItem from="1599267054846" duration="603000" />
     </task>
     <servers />
   </component>
