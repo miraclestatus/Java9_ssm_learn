@@ -4,6 +4,7 @@ import com.neusoft.dao.IAccountDao;
 import com.neusoft.dao.Impl.AccountDaoImpl;
 import com.neusoft.domain.Account;
 import com.neusoft.service.IAccountService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -14,11 +15,10 @@ import java.util.List;
  */
 @Component("accountService")
 public class AccountServiceImpl implements IAccountService {
-    private IAccountDao accountDao;
+//    private IAccountDao accountDao;
 
-    public void setAccountDao(IAccountDao accountDao) {
-        this.accountDao = accountDao;
-    }
+    @Autowired
+    private IAccountDao accountDao;
 
     @Override
     public List<Account> findAllAccount() {
