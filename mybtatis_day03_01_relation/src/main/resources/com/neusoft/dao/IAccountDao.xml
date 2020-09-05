@@ -11,14 +11,22 @@
 
         <result property="uid" column="UID"></result>
         <result property="money" column="MONEY"></result>
+<!--        指定一对一映射关系， 配置user的内容-->
+        <association property="user" column="uid" javaType="user">
+            <id property="userId" column="id"></id>
 
-
+            <result property="userName" column="username"></result>
+            <result property="userBirthday" column="birthday"></result>
+            <result property="userSex" column="sex"></result>
+            <result property="userAddress" column="address"></result>
+        </association>
     </resultMap>
 
-<!--&lt;!&ndash;    查询所有&ndash;&gt;-->
-<!--    <select id="findAll" resultMap="">-->
-<!--        SELECT  *  from account a, user u where u.id = a.uid-->
-<!--    </select>-->
+<!--    查询所有-->
+<!--    <select id="findAll" resultType="account">-->
+    <select id="findAll" resultMap="accountUserMap">
+        SELECT  u.*, a.ID AS aid,a.uid, a.MONEY from account a, user u where u.id = a.uid
+    </select>
 
     <!--    查询所有 带用户名和地址-->
     <select id="findAllAccount" resultType="accountuser">

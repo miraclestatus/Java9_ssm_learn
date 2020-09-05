@@ -6,7 +6,7 @@ package com.neusoft.domain;
  */
 public class AccountUser extends Account {
     private String username;
-    private String adrress;
+    private String address;
 
     public String getUsername() {
         return username;
@@ -16,19 +16,19 @@ public class AccountUser extends Account {
         this.username = username;
     }
 
-    public String getAdrress() {
-        return adrress;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAdrress(String adrress) {
-        this.adrress = adrress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     @Override
     public String toString() {
         return  super.toString() + "AccountUser{" +
                 "username='" + username + '\'' +
-                ", adrress='" + adrress + '\'' +
+                ", adrress='" + address + '\'' +
                 '}';
     }
 }

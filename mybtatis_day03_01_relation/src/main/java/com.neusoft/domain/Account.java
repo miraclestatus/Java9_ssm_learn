@@ -9,6 +9,17 @@ public class Account {
     private Integer uid;
     private Double money;
 
+    // 从表实体中注入一个实体对象
+    private  User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -35,7 +46,7 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account{" +
+        return   "Account{" +
                 "id=" + id +
                 ", uid=" + uid +
                 ", money=" + money +

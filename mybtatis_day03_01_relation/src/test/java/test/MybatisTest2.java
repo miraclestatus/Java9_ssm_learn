@@ -2,6 +2,7 @@ package test;
 
 import com.neusoft.dao.IAccountDao;
 import com.neusoft.dao.IUserDao;
+import com.neusoft.domain.Account;
 import com.neusoft.domain.AccountUser;
 import com.neusoft.domain.User;
 import org.apache.ibatis.io.Resources;
@@ -59,5 +60,16 @@ public class MybatisTest2 {
         }
     }
 
+    @Test
+    public void testFindAll(){
+
+        List<Account> all = accountDao.findAll();
+
+        for (Account a : all){
+            System.out.println("每个账户的信息");
+            System.out.println(a);
+            System.out.println(a.getUser());
+        }
+    }
 
 }
