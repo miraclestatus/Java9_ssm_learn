@@ -15,7 +15,8 @@ import java.util.List;
 public class TestAccountService {
 
     ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
-    IAccountService as = ac.getBean("accountService", IAccountService.class);
+//    IAccountService as = ac.getBean("accountService", IAccountService.class);
+    IAccountService as = ac.getBean("accountServiceImpl", IAccountService.class);
 
     @Test
     public void testFindAll() {

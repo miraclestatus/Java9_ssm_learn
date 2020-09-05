@@ -6,6 +6,7 @@ import com.neusoft.domain.Account;
 import com.neusoft.service.IAccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -13,7 +14,9 @@ import java.util.List;
  * @author Eric Lee
  * @date 2020/9/5 11:39
  */
-@Component("accountService")
+//@Component("accountService")
+//@Component()
+@Service
 public class AccountServiceImpl implements IAccountService {
 //    private IAccountDao accountDao;
 

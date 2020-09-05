@@ -15,7 +15,8 @@ import java.util.List;
  * @author Eric Lee
  * @date 2020/9/5 11:10
  */
-@Repository("accounDao")
+@Repository()
+//@Repository("accounDao")
 public class AccountDaoImpl  implements IAccountDao {
 
     @Autowired
