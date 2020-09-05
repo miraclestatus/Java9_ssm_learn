@@ -14,14 +14,47 @@ import java.util.List;
  */
 public class TestAccountService {
 
+    ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
+    IAccountService as = ac.getBean("accountService", IAccountService.class);
+
     @Test
-    public void testFindAll(){
-       ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
-       IAccountService as = ac.getBean("accountService", IAccountService.class);
-        List<Account> allAccount = as.findAllAccount();
-        for (Account account: allAccount){
+    public void testFindAll() {
+
+        //3.执行方法
+        List<Account> accounts = as.findAllAccount();
+        for(Account account : accounts){
             System.out.println(account);
         }
-        
+    }
+
+    @Test
+    public void testFindOne() {
+        //3.执行方法
+        Account account = as.findAccountById(1);
+        System.out.println(account);
+    }
+
+    @Test
+    public void testSave() {
+        Account account = new Account();
+        account.setName("test");
+        account.setMoney(12345f);
+        //3.执行方法
+        as.saveAccount(account);
+
+    }
+
+    @Test
+    public void testUpdate() {
+        //3.执行方法
+        Account account = as.findAccountById(4);
+        account.setMoney(23456f);
+        as.updateAccount(account);
+    }
+
+    @Test
+    public void testDelete() {
+        //3.执行方法
+        as.deleteAccount(4);
     }
 }

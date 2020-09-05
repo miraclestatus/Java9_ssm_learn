@@ -54,7 +54,7 @@ public class AccountDaoImpl  implements IAccountDao {
     public void updateAccount(Account account) {
 
         try {
-            runner.update("update account set name= ? , money = ? where id=? ",account.getName(), account.getMoney());
+            runner.update("update account set name= ? , money = ? where id=? ",account.getName(), account.getMoney(), account.getId());
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
