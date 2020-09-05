@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <!-- mybatis的主配置文件 -->
 <configuration>
-
+    <properties url="file:///C:/Users/Eric/Documents/GitHub/Java9_ssm_learn/mybtatis_day03_01_relation/src/main/resources/jdbcConfig.properties"></properties>
     <typeAliases>
 <!--        单个类起别名-->
 <!--        <typeAlias type="com.neusoft.domain.User" alias="user"></typeAlias>-->
@@ -20,10 +20,10 @@
             <!-- 配置数据源（连接池） -->
             <dataSource type="POOLED">
                 <!-- 配置连接数据库的4个基本信息 -->
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/java_ssm"/>
-                <property name="username" value="root"/>
-                <property name="password" value="root"/>
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
             </dataSource>
             <!--配置连接池-->
 
