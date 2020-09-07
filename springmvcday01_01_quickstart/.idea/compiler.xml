@@ -6,10 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springday02_01demo_with_no_xml" />
-        <module name="mvcdemo" />
+        <module name="springmvcday01_01_quickstart" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
   </component>
 </project>

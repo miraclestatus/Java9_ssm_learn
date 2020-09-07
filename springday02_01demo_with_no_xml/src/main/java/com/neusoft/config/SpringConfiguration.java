@@ -18,10 +18,14 @@ import org.springframework.context.annotation.PropertySource;
 
 //    细节：当我们使用 注解配置时， 如果方法有参数， spring去容器中查找
 //    有没有可以用的bean对象， 查找的方式和Auto注解的作用是一样的
+// Import 导入配置类
+    // 属性 配置类的字节码文件
+    // 当我们使用@Import注解的类就是（SpringConfiguration）就是父类配置， 而导入的都是子类配置类（JdbcConfig）
 
 
-
-
+//PropertySource
+// 指定Properties 文件的位置
+//    属性 文件的名称和路径   classpath 表示类路径
 //@ComponentScan(basePackages="com.neusoft")
 //@ComponentScan({"com.neusoft"})
 @ComponentScan("com.neusoft")
