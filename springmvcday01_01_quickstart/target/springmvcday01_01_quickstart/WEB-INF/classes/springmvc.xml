@@ -28,5 +28,6 @@
         </property>
     </bean>
     <!--开启spring注解支持-->
-    <mvc:annotation-driven/>
+<!--    <mvc:annotation-driven/>-->
+    <mvc:annotation-driven conversion-service="conversionService"/>
 </beans>
