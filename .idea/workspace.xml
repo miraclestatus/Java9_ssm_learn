@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ac6192-a04f-4776-8b33-f7f95e073c10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springday02_01demo_with_no_xml/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springday02_01demo_with_no_xml/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springday02_01demo_with_no_xml/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springday02_01demo_with_no_xml/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springday02_01demo_with_no_xml/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springday02_01demo_with_no_xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springday02_01demo_with_no_xml/springday02_01demo_with_no_xml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springday02_01demo_with_no_xml/src/main/java/com/neusoft/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springday02_01demo_with_no_xml/src/main/java/com/neusoft/config/SpringConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springday01_02_account_demo_annoc/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springday01_02_account_demo_annoc/.idea/compiler.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,6 +212,7 @@
       <workItem from="1599094595773" duration="19219000" />
       <workItem from="1599180084376" duration="8841000" />
       <workItem from="1599267054846" duration="3062000" />
+      <workItem from="1599441235776" duration="4000" />
     </task>
     <servers />
   </component>
