@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ac6192-a04f-4776-8b33-f7f95e073c10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springmvcday01_01_quickstart/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvcday01_01_quickstart/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvcday01_01_quickstart/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvcday01_01_quickstart/src/main/java/com/neusoft/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvcday01_01_quickstart/src/main/java/com/neusoft/controller/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +205,7 @@
       <workItem from="1599180084376" duration="8841000" />
       <workItem from="1599267054846" duration="3062000" />
       <workItem from="1599441235776" duration="4000" />
-      <workItem from="1599449839046" duration="516000" />
+      <workItem from="1599449839046" duration="625000" />
     </task>
     <servers />
   </component>
