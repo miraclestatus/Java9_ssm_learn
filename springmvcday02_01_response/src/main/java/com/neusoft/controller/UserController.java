@@ -5,6 +5,7 @@ import com.sun.org.apache.regexp.internal.RE;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -38,14 +39,42 @@ public class UserController {
 
         // 请求转发去响应 自己调用原生的必须 全路径
 //        request.getRequestDispatcher("/WEB-INF/pages/success.jsp").forward(request, response);
-//        response.sendRedirect(request.getContextPath()+"index.jsp");
-        response.setCharacterEncoding("utf-8");
-        response.setContentType("text/html;charset=UTF-8");
-
-        response.getWriter().write("你好完美");
+        response.sendRedirect(request.getContextPath()+"/index.jsp");
+//        response.setCharacterEncoding("utf-8");
+//        response.setContentType("text/html;charset=UTF-8");
+//
+//        response.getWriter().write("你好完美");
 
         return;
 
     }
+
+    @RequestMapping("/testModelAndView")
+    public ModelAndView testModelAndView(){
+        System.out.println("testModelAndView...");
+        ModelAndView mv = new ModelAndView();
+        User user = new User();
+        // 假装么 这是调用service查出的结果
+        user.setUsername("张无忌");
+        user.setPassword("123");
+        user.setAge(13);
+
+        mv.addObject("user", user);
+        mv.setViewName("success");
+        return mv;
+    }
+
+
+    @RequestMapping("/test")
+    public String testFOR(){
+        System.out.println("testFOR....");
+        return "redirect:/index.jsp";
+    }
+
+
+
+
+
+
 
 }
