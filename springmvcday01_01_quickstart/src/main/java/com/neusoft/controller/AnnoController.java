@@ -42,6 +42,10 @@ public class AnnoController {
 
     @RequestMapping("/testPathVarible/{sid}")
     public String testPathVarible(@PathVariable(name = "sid") String id){
+//        拥有绑定url中的占位符的。例如：url中有/delete/{id}，{id}就是占位符
+//        .value：指定url中的占位符名称
+//        Restful风格的URL: 请求路径一样，可以根据不同的请求方式去执行后台的不同方法
+
         System.out.println("/testPathVarible");
         System.out.println(id);
         return "success";
