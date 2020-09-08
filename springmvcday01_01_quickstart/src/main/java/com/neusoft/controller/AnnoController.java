@@ -40,7 +40,7 @@ public class AnnoController {
         return "success";
     }
 
-    @RequestMapping("/testPathVarible")
+    @RequestMapping("/testPathVarible/{sid}")
     public String testPathVarible(@PathVariable(name = "sid") String id){
         System.out.println("/testPathVarible");
         System.out.println(id);
